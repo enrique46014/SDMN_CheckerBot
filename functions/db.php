@@ -6,11 +6,11 @@ include __DIR__."/../config/variables.php";
 include __DIR__."/../config/config.php";
 
 ///////////==[DB Connection]==///////////
-$conn = mysqli_connect($config['db']['hostname'],$config['db']['username'],$config['db']['password'],$config['db']['database']);
+$conn = mysqli_connect($config['db']['sql6.freesqldatabase.com'],$config['db']['sql6463654'],$config['db']['BBPzb6p9aB'],$config['db']['sql6463654']);
 
 if(!$conn){
     bot('sendmessage',[
-        'chat_id'=>$config['adminID'],
+        'chat_id'=>$config['1001574929152'],
         'text'=>"<b>🛑 DB connection Failed!
         
         ".json_encode($config['db'])."</b>",
