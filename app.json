@@ -12,37 +12,37 @@
     "env": {
         "BOT_TOKEN": {
             "description": "Enter your Bot Token Here. Get it from @Botfather",
-            "value": "",
+            "value": "5008544399:AAH00HYi6XXgUsfauUCv8lz_sHe5H1oRoKE",
             "required": true
         },
         "ADMIN_ID": {
             "description": "Enter the User ID of Admin.",
-            "value": "",
+            "value": "1001574929152",
             "required": true
         },
         "LOGS_DUMP_ID": {
             "description": "Enter the ID of a Group/Channel to store Logs",
-            "value": "",
+            "value": "1001574929152",
             "required": true
         },
         "DB_HOST": {
             "description": "Database URL",
-            "value": "",
+            "value": "sql6.freesqldatabase.com",
             "required": true
         },
         "DB_USERNAME": {
             "description": "Database Username",
-            "value": "",
+            "value": "sql6463654",
             "required": true
         },
         "DB_PASSWORD": {
             "description": "Database Password",
-            "value": "",
+            "value": "sql6463654",
             "required": true
         },
         "DB_NAME": {
             "description": "Database Name",
-            "value": "",
+            "value": "sql6463654",
             "required": true
         },
         "ANTISPAM_TIMER": {
@@ -52,7 +52,7 @@
         },
         "SK_KEYS": {
             "description": "Enter SK Keys Here. Separate Multiple Keys with ,",
-            "value": "",
+            "value": "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",
             "required": false
         },
         "TIMEZONE": {
