@@ -62,7 +62,7 @@ if(strpos($message, "/sm ") === 0 || strpos($message, "!sm ") === 0){
             curl_setopt($ch, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']);
             curl_setopt($ch, CURLOPT_HTTPHEADER, array(
             'Host: lookup.binlist.net',
-            'Cookie: _ga=GA1.2.549903363.1545240628; _gid=GA1.2.82939664.1545240628',
+            'Cookie: wp-give_session_85b301f694ce4b3f8229b2871d10a6fa=14aefb8aeec5a65540d0437380e8c9d8%7C%7C1642304866%7C%7C1642301266%7C%7Ca03bfd19b5946d41794c03d5bd535252; expires=Sun, 16-Jan-2022 03:47:46 GMT; Max-Age=604800; path=/',
             'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'));
             curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
