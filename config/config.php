@@ -43,7 +43,7 @@ $config['logsID'] =  "1001574929152";
 | By Default it's in IST
 |
 */
-$config['timeZone'] =  "Asia/Kolkata";
+$config['timeZone'] =  "América del Norte/New York";
 
 /*
 |--------------------------------------------------------------------------
