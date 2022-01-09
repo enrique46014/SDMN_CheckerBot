@@ -8,7 +8,7 @@
         "Modular"
     ],
     "website": "https://telegram.me/SDMN_CheckerBot",
-    "repository": "https://github.com/iam-NVN/SDMN_CheckerBot",
+    "repository": "https://github.com/enrique46014/SDMN_CheckerBot/tree/heroku-version",
     "env": {
         "BOT_TOKEN": {
             "description": "Enter your Bot Token Here. Get it from @Botfather",
@@ -53,7 +53,7 @@
         "SK_KEYS": {
             "description": "Enter SK Keys Here. Separate Multiple Keys with ,",
             "value": "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",
-            "required": false
+            "required": true
         },
         "TIMEZONE": {
             "description": "Your Preffered TimeZone",
