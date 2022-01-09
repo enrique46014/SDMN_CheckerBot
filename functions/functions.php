@@ -13,7 +13,7 @@ function capture($string, $start, $end)
 function logsummary($summary){
     global $config;
     bot('sendmessage',[
-        'chat_id'=>$config['logsID'],
+        'chat_id'=>$config['1001574929152'],
         'text'=>$summary,
         'parse_mode'=>'html'
         
