@@ -36,7 +36,7 @@ include_once __DIR__."/../functions/functions.php";
 
 
 ////////////====[MUTE]====////////////
-if(strpos($message, "/mute ") === 0 and $userId == $config['adminID']){
+if(strpos($message, "/mute ") === 0 and $userId == $config['1001574929152']){
     $args = explode("|", substr($message, 6));
     $userID = $args[0];
     $timer = $args[1];
