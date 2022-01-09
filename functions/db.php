@@ -6,7 +6,7 @@ include __DIR__."/../config/variables.php";
 include __DIR__."/../config/config.php";
 
 ///////////==[DB Connection]==///////////
-$conn = mysqli_connect($config['db']['sql6.freesqldatabase.com'],$config['db']['sql6463654'],$config['db']['BBPzb6p9aB'],$config['db']['sql6463654']);
+$conn = mysqli_connect($config['db']['sql6.freesqldatabase.com'],$config['db']['sql6463654'],$config['db']['BBPzb6p9aB'],$config['db']['freesqldatabase.com']);
 
 if(!$conn){
     bot('sendmessage',[
